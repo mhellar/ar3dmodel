@@ -1,0 +1,18 @@
+<model-viewer src="overland.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="pillars_1k.hdr">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.1620112215426166m -0.21391032282972985m -0.25134943227967654m" data-normal="-0.424439230386964m 0.3033323712040478m -0.8531358697700218m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">loose Binding</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.0060527846693747556m 0.3064885384140622m 0.11935111080994618m" data-normal="-0.9415064382702075m 0.2973438326882881m -0.15859467789931408m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Pen Marking</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.02133715769238176m 0.2140428527095567m 0.14638074574599885m" data-normal="0.9288434080862521m -0.3391912875947782m -0.14899393838177716m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Torn Cover</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
